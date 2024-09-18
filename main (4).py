@@ -78,3 +78,11 @@ class Root(Manager):
     def department(self,new_department):
         self._department = new_department
         return self._department
+
+
+
+# добавить класс 
+class NewRoot:
+    def __init__(self, params):
+        self.params = params
+        
